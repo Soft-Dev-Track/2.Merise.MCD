@@ -53,9 +53,10 @@ Chaque **Entité** doit être identifié de manière *unique*; clé naturelle. E
 
 ![](assets/mcd-006.jpg)
 
-Maintenant que vous savez créer des associations entre différentes entités, il est temps de passé aux relations. Il existe plusieurs types de relations. 
-
 ## E. Relations
+
+Maintenant que vous savez créer des associations entre différentes **entités**, il est temps de passé aux relations. Il existe plusieurs types de relations. 
+
 #### 1. Relation binaire
 Une association entre deux entités. Prenons pour exemple:
 
@@ -81,8 +82,8 @@ Soit analysons les deux relations:
 Une personne possède ET/OU habite dans une maison
 ```
 
-- **Entité étudiant** : (Nom, Prénom et Naissance)
-- **Entité diplome** : (Titre, Niveau)
+- **Entité Personne** : (Nom, Prénom)
+- **Entité Maison** : (Adresse)
 - **Associations** : Habiter ET posseder
 
 Analysons les relations:
@@ -121,4 +122,23 @@ Soit
 #### 4. Relation n-aires
 Association entre au moin trois entités (ternaire)
 
-**FAIRE LE MODEL**
+```markdown
+Une classe est enseigné par un ou plusieurs professeurs
+Un professeur enseigne une ou plusieurs matières
+Une matière est enseigné par un ou plusieurs professeurs
+...
+```
+
+- **Entité classe** : (Idclasse, NomClasse, Effectif)
+- **Entité Matière** : (IdMatière, Designation)
+- **Entité Prof** : (IdProf, Nom, Prénom)
+
+Analysons les relations:
+
+- Une classe est enseigné par **1:n** professeur(s)
+- Un professeur enseigne **1:n** matière(s)
+- Une matière est enseigné par **1:n** professeur(s)
+
+![](assets/mcd-010.jpg)
+
+## F. Cardinalité
