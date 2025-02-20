@@ -64,3 +64,6 @@ Soit
 **FAIRE LE MODEL**
 
 ## 3. Relation n-aires
+Association entre au moin trois entités (ternaire)
+
+**FAIRE LE MODEL**
