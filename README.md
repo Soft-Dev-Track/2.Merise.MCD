@@ -72,7 +72,7 @@ Soit analysons les deux relations:
 - Un étudiant possède **0:n** diplôme(s) => zéro ou plusieurs 
 - Un diplôme est possédé par **1:n** étudiants => un ou plusieurs
 
-**FAIRE LE MODEL**
+![](assets/mcd-007.jpg)
 
 #### 2. Partage d'une même collection
 **Une collection** est l'ensemble des participants d'une association
@@ -92,7 +92,7 @@ Analysons les relations:
 - Un logement est possédé par **0:n** personne(s)=> zéro et plusieurs
 - Un logement est habité par **1:n** personne(s) => un et plusieurs 
 
-**FAIRE LE MODEL**
+![](assets/mcd-008.jpg)
 
 #### 3. Relation sur une même entité: soit une relation 1-aire, entité récursive
 ```markdown
@@ -116,7 +116,7 @@ Soit
 - Un employé est supervisé par **0:1** superviseur
 - Un superviseur supervise **0:n** employé.
 
-**FAIRE LE MODEL**
+![](assets/mcd-009.jpg)
 
 #### 4. Relation n-aires
 Association entre au moin trois entités (ternaire)
