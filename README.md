@@ -30,6 +30,8 @@ Ces associations sont reliés entre elles par un **verbe** d'action ou d'état (
 
 **Rôle** est une donnée élémentaire de l'association (ou d'une entité). En effet, Un attribut propre à l’association est un attribut qui ne peut appartenir à aucune des entités qu’il relie individuellement, mais qui caractérise spécifiquement leur relation.
 
+![](assets/mcd-005.jpg)
+
 #### Comment identifier un attribut propre à l’association ?
 Lors de la conception du **MCD**, on peut se poser ces trois questions clés :
 
@@ -45,16 +47,15 @@ Si l’association disparaît, l’attribut a-t-il encore un sens ?
 - Si non, c’est un bon indice que l’attribut appartient à l’association.
 - Ex : "Date_Emprunt" n’a de sens que si l’association "emprunte" existe entre un ÉLÈVE et un LIVRE.
 
-![](assets/mcd-004.png)
 
 ## D. Identifiant
 Chaque **Entité** doit être identifié de manière *unique*; clé naturelle. En effet, l'identifiant est une valeur qui identifie sans ambiguïté une entité. Elle est généralement souligné.
 
-![](assets/mcd-005.png)
+![](assets/mcd-006.jpg)
 
 Maintenant que vous savez créer des associations entre différentes entités, il est temps de passé aux relations. Il existe plusieurs types de relations. 
 
-### E. Relations
+## E. Relations
 #### 1. Relation binaire
 Une association entre deux entités. Prenons pour exemple:
 
