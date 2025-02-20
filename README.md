@@ -141,4 +141,3 @@ Analysons les relations:
 
 ![](assets/mcd-010.jpg)
 
-## F. Cardinalité
